@@ -24,14 +24,13 @@ void bubble_sort(int * ptr,int size){
     printf("Time taken to execute in seconds : %f", duration);
 }
 int main(){
-    
     int size;
     int *ptr;
     printf("Enter the size of the array \n");
     scanf("%d",&size);
     ptr = (int*)malloc(size * sizeof(int));
     printf("Enter the array \n");
-    for (int i=0;i<size;i++){
+    for (int i=0;i<size;i++){//for imput of the array 
         printf("Array[%d] : ",i);
         scanf("%d",&ptr[i]);
     }
