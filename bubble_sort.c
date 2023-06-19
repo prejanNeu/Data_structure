@@ -1,11 +1,13 @@
 #include<stdio.h>
 
+//function for swapping 
 void swap_element(int* A, int* B){
     int temp;
     temp =* A;
     *A = *B;
     *B=temp;
 }
+//function for sorting the array
 void bubble_sort(int * ptr,int size){
     for (int i=0;i<=size-1;i++){
         for (int j=0;j<size-i-1;j++){
