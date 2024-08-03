@@ -49,7 +49,7 @@ void print_array(int arr[],int size){
 }
 int main(){
 
-    int arr[]={6,3,9,5,2,8};
+    int arr[]={9,6,7,2,1,3,5,4,8,0};
     int size=sizeof(arr)/sizeof(int);
 
     printf("Before Sorting....\n");
